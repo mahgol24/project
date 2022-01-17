@@ -1,0 +1,102 @@
+@font-face {
+    font-family: IranSansWeb;
+    src: url(../fonts/IRANSansWeb.woff);
+    /* src: url(fonts/IRANSansWeb.woff); */
+}
+
+body {
+    font-family: IranSansWeb !important;
+}
+
+.MainBody {
+    display: flex;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.mainPanel {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #cdc8c859;
+    align-items: center;
+    text-align: center;
+    border-radius: 9px;
+    padding: 30px;
+    width: 95%;
+}
+
+.title {
+    text-align: right;
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+
+.logoImg {
+    width: 250px;
+    padding: 20px 60px 20px 60px;
+}
+
+.titletext {
+    margin-top: 25px;
+    margin-bottom: 2px;
+    text-align: right;
+    font-size: 10px;
+    color: #62666d;
+}
+
+.modal-dialog {
+    max-width: 400px;
+}
+
+.mainPanel>input {
+    font-weight: 700;
+    border-radius: 8px;
+    padding: 12px 55px;
+    margin-top: 10px;
+    padding: unset;
+    width: 100%;
+    height: 45px;
+    border: 1px solid #e0e0e2;
+}
+
+.mainPanel>input:focus {
+    border-color: #008eb2;
+}
+
+.buttonBox {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.buttonBox>button {
+    color: rgb(200, 210, 210);
+    background-color: #ef394e;
+    font-size: 20px;
+    line-height: 1.571;
+    font-weight: 100;
+    border-radius: 8px;
+    padding: 12px 35px;
+    margin-top: 0px;
+    width: 40%;
+    margin-top: 20px;
+}
+
+.titleBox {
+    margin-top: 10px;
+}
+
+.sutitle {
+    font-size: 10px;
+    color: #62666d;
+}
+
+.sutitle>a {
+    font-size: 10px;
+    color: #62666d;
+}
